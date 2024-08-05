@@ -29,6 +29,10 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   flutter_native_splash: ^2.4.1
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.3.1
+  easy_localization: ^3.0.7
   flutter:
     sdk: flutter
 
@@ -61,7 +65,10 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/logo2@3x.png
+    - assets/images/
+    - assets/files/
+    - assets/files/ahadeth.txt
+    - assets/translations/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
